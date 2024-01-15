@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100v;
+  background: url(./images/lib-2.jpg) no-repeat center center/ cover;
+  text-align: center;
+}
+.container {
+  width: 450px;
+  height: 400px;
+}
+.title {
+  font-size: 25px;
+  color: azure;
+  background-color: black;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.main-container {
+  background-color: aliceblue;
+  height: 300px;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 4rem 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+.person {
+  margin-top: 1rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgba(255, 0, 0, 0.53);
+}
+.quote {
+  line-height: 1.5;
+}
+.btn {
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.858);
+  padding: 8px 15px;
+  color: aliceblue;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: 1px 1px 20px  black;
+}
+.btn:active {
+  background-color: aliceblue;
+  color: black;
+}
+
+@media (max-width: 600px) {
+    .container{
+        padding: 5px 40px ;
+    }
+}
